@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_DEF</TOOL>
+   <SHORTTEXT>ES: Maintain GICOM tables</SHORTTEXT>
+   <BADI_DATA>
+    <ENH_BADI_DATA>
+     <BADI_NAME>/GICOM/BD_MAINTAIN_TABLE</BADI_NAME>
+     <INTERFACE_NAME>/GICOM/IF_MAINTAIN_TABLES</INTERFACE_NAME>
+     <CONTEXT_MODE>S</CONTEXT_MODE>
+     <BADI_SHORTTEXT>Maintain GICOM Tables</BADI_SHORTTEXT>
+     <FILTERS>
+      <ENH_BADI_FILTER>
+       <FILTER_NAME>TABLE_NAME</FILTER_NAME>
+       <FILTER_TYPE>C</FILTER_TYPE>
+       <FILTERTEXT>GICOM Table name</FILTERTEXT>
+      </ENH_BADI_FILTER>
+     </FILTERS>
+    </ENH_BADI_DATA>
+   </BADI_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
